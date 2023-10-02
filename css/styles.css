@@ -2043,7 +2043,7 @@ img,
     justify-content: center;
     -ms-flex-line-pack: center;
     align-content: center;
-    background: #050505;
+    background: var(--color-white-bg);
     z-index: 500;
     height: 100vh;
     width: 100%;
@@ -3460,7 +3460,7 @@ body.search-is-visible {
         display: none;
         height: auto;
         width: 100%;
-        background-color: black;
+        background-color: var(--color-white-bg);
         padding: var(--vspace-2_5) 6rem 3.6rem;
         border-top: 1px solid rgba(255, 255, 255, 0.07);
     }
@@ -3668,7 +3668,7 @@ body.search-is-visible {
 
 [class*="s-home__arrow-"]:hover svg path, 
 [class*="s-home__arrow-"]:focus svg path {
-    fill: var(--color-dark-bg);
+    fill: var(--color-white);
 }
 
 .s-home__arrow-prev {
