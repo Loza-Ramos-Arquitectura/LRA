@@ -3059,6 +3059,17 @@ input::-moz-focus-inner {
     width: 100%;
     background-color: var(--color-white-bg);
     position: absolute;
+    visibility: hidden;
+    top: 100vh;
+    left: 0;
+}
+
+.s-header2 {
+    --header-height: 10.2rem;
+    z-index: 100;
+    width: 100%;
+    background-color: var(--color-white-bg);
+    position: absolute;
     top: 0;
     left: 0;
 }
@@ -3590,7 +3601,7 @@ body.search-is-visible {
 }
 
 .s-home__slider .row {
-    min-height: 586px;
+    min-height: 100vh;
     padding: 18.4rem 0 10vh;
     -ms-flex-align: center;
     -webkit-box-align: center;
@@ -3652,7 +3663,7 @@ body.search-is-visible {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     position: absolute;
-    top: 58%;
+    top: 50%;
 }
 
 [class*="s-home__arrow-"] svg {
