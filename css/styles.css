@@ -3562,7 +3562,7 @@ body.search-is-visible {
     -ms-flex-align: center;
     -webkit-box-align: center;
     align-items: center;
-    background-color: transparent;
+    background-color: var(--color-white-bg);
     position: relative;
 }
 
@@ -3579,7 +3579,7 @@ body.search-is-visible {
 }
 
 .no-js .s-home {
-    background: var(--color-dark-bg);
+    background: var(--color-white-bg);
 }
 
 /* ------------------------------------------------------------------- 
@@ -3618,7 +3618,7 @@ body.search-is-visible {
     line-height: 1.25;
     margin-top: 0;
     margin-bottom: var(--vspace-0_75);
-    color: var(--color-white);
+    color: var(--color-black);
     -webkit-transition: all .3s;
     transition: all .3s;
 }
