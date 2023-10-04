@@ -3730,7 +3730,7 @@ body.search-is-visible {
     .s-home__slider .row {
         padding: 16rem 8rem 10vh;
     }
-    .s-home__slider h2 {
+    .s-home__slider h1 {
         font-size: 5.6rem;
     }
     .s-home__slider p {
@@ -3741,13 +3741,13 @@ body.search-is-visible {
 }
 
 @media screen and (max-width: 900px) {
-    .s-home__slider h2 {
+    .s-home__slider h1 {
         font-size: 5rem;
     }
 }
 
 @media screen and (max-width: 800px) {
-    .s-home__slider h2 {
+    .s-home__slider h1 {
         font-size: 4.6rem;
     }
     [class*="s-home__arrow-"] {
@@ -3761,7 +3761,7 @@ body.search-is-visible {
 }
 
 @media screen and (max-width: 700px) {
-    .s-home__slider h2 {
+    .s-home__slider h1 {
         font-size: 4.2rem;
     }
     .s-home__slider p {
@@ -3773,7 +3773,7 @@ body.search-is-visible {
     .s-home__slider .row {
         padding: 16rem 6rem 10vh;
     }
-    .s-home__slider h2 {
+    .s-home__slider h1 {
         font-size: 4rem;
     }
     [class*="s-home__arrow-"] {
@@ -3790,7 +3790,7 @@ body.search-is-visible {
     .s-home__slider .row {
         padding: 14.4rem 4.8rem 10vh;
     }
-    .s-home__slider h2 {
+    .s-home__slider h1 {
         font-size: 3.8rem;
     }
     .s-home__line {
@@ -3802,7 +3802,7 @@ body.search-is-visible {
     .s-home__slider .row {
         padding: 10.4rem 6vw 10vh;
     }
-    .s-home__slider h2 {
+    .s-home__slider h1 {
         font-size: 3.5rem;
     }
     .s-home__slider p {
