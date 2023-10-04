@@ -3663,7 +3663,7 @@ body.search-is-visible {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     position: absolute;
-    top: 50%;
+    top: 75%;
 }
 
 [class*="s-home__arrow-"] svg {
