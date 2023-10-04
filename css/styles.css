@@ -3057,7 +3057,7 @@ input::-moz-focus-inner {
     --header-height: 10.2rem;
     z-index: 100;
     width: 100%;
-    background-color: #f4f4f4;
+    background-color: var(--color-white-bg);
     position: absolute;
     top: 0;
     left: 0;
