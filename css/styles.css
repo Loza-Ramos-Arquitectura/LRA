@@ -3179,16 +3179,16 @@ input::-moz-focus-inner {
     height: var(--header-height);
     line-height: var(--header-height);
     padding: 0 16px;
-    color: var(--color-1);
+    color: var(--color-black);
 }
 
 .s-header__nav a:hover, .s-header__nav a:focus {
-    color: black;
+    color: var(--color-1);
 }
 
 .s-header__nav .current a {
-    background-color: var(--color-1);
-    color: var(--color-white);
+    background-color: var(--color-white);
+    color: var(--color-1);
 }
 
 /* ------------------------------------------------------------------- 
@@ -3374,7 +3374,7 @@ body.search-is-visible {
 }
 
 .s-header__search-trigger svg path {
-    fill: var(--color-1);
+    fill: #0;
 }
 
 /* ------------------------------------------------------------------- 
@@ -3656,14 +3656,14 @@ body.search-is-visible {
     justify-content: center;
     width: 6.4rem;
     height: 6rem;
-    background-color: var(--color-1);
+    background-color: var(--color-white-bg);
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     cursor: pointer;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     position: absolute;
-    top: 75%;
+    top: 50%;
 }
 
 [class*="s-home__arrow-"] svg {
@@ -3672,14 +3672,14 @@ body.search-is-visible {
 }
 
 [class*="s-home__arrow-"] svg path {
-    fill: var(--color-white);
+    fill: var(--color-1);
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 
 [class*="s-home__arrow-"]:hover svg path, 
 [class*="s-home__arrow-"]:focus svg path {
-    fill: var(--color-white);
+    fill: var(--color-1);
 }
 
 .s-home__arrow-prev {
