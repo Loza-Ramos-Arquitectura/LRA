@@ -1677,6 +1677,7 @@ h2, .h2 {
 h3, .h3 {
     font-size: var(--text-xl);
     line-height: var(--vspace-1_25);
+    text-align: right
 }
 
 h4, .h4 {
@@ -1702,6 +1703,13 @@ h6, .h6 {
     font-size: var(--text-md);
     line-height: calc(1.125 * var(--space));
     color: var(--color-text-dark);
+}
+
+.lead span, .attention-getter {
+    font-weight: 300;
+    font-size: var(--text-md);
+    line-height: calc(1.125 * var(--space));
+    color: var(--color-1);
 }
 
 @media screen and (max-width: 400px) {
@@ -2344,6 +2352,7 @@ input[type="button"].btn--primary {
     background: var(--color-btn-primary);
     border-color: var(--color-btn-primary);
     color: var(--color-btn-primary-text);
+    float:right;
 }
 
 .btn.btn--primary:hover, 
@@ -2403,6 +2412,7 @@ button.btn--pill {
     padding-left: 3.2rem !important;
     padding-right: 3.2rem !important;
     border-radius: 1000px !important;
+    float: right;
 }
 
 button::-moz-focus-inner, 
@@ -4558,6 +4568,13 @@ body.search-is-visible {
     margin-top: 0;
 }
 
+.s-contact__content .display-1 span {
+    font-size: var(--text-xxl);
+    line-height: var(--vspace-1_75);
+    color: var(--color-1);
+    margin-top: 0;
+}
+
 .s-contact__email-us {
     margin-top: var(--vspace-2);
 }
@@ -4572,7 +4589,8 @@ body.search-is-visible {
  * ## contact info blocks
  * ------------------------------------------------------------------- */
 .s-contact__info-blocks {
-    margin-left: auto;
+    margin-left: None;
+    order: -1;
 }
 
 .s-contact__info-block {
@@ -4588,7 +4606,7 @@ body.search-is-visible {
 }
 
 .s-contact__info-block-icon svg path {
-    fill: var(--color-white);
+    fill: var(--color-1);
 }
 
 /* ------------------------------------------------------------------- 
@@ -4650,6 +4668,7 @@ body.search-is-visible {
     -ms-flex-flow: row wrap;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
+    order: -1;
     flex-flow: row wrap;
     margin-bottom: 0;
     position: relative;
@@ -4657,11 +4676,11 @@ body.search-is-visible {
 }
 
 .s-footer__social a {
-    color: var(--color-white);
+    color: var(--color-1);
 }
 
 .s-footer__social a:focus, .s-footer__social a:hover {
-    color: var(--color-1);
+    color: var(--color-white);
 }
 
 .s-footer__social li {
@@ -4676,7 +4695,7 @@ body.search-is-visible {
     z-index: 2;
     -ms-flex-order: -1;
     -webkit-box-ordinal-group: 0;
-    order: -1;
+    order: 1;
     margin-right: auto;
     position: relative;
 }
