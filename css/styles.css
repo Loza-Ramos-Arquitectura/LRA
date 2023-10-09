@@ -112,16 +112,16 @@
      * color-2(#493657)
      * color-3(#f46036)
      */
-    --color-1: #FF5757;
+    --color-1: #FF3F3F;
     --color-2: hsla(275, 23%, 28%, 1);
-    --color-3: hsla(13, 90%, 58%, 1);
+    --color-3: #FF3F3F;
 
     /* theme color variations
      */
-    --color-1-lighter: #FF5757;
-    --color-1-light  : #FF5757;
-    --color-1-dark   : #FF5757;
-    --color-1-darker : #FF5757;
+    --color-1-lighter: #FF3F3F;
+    --color-1-light  : #FF3F3F;
+    --color-1-dark   : #FF3F3F;
+    --color-1-darker : #FF3F3F;
     --color-2-lighter: hsla(275, 23%, 48%, 1);
     --color-2-light  : hsla(275, 23%, 38%, 1);
     --color-2-dark   : hsla(275, 23%, 18%, 1);
@@ -3673,7 +3673,7 @@ body.search-is-visible {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     position: absolute;
-    top: 50%;
+    top: 53%;
 }
 
 [class*="s-home__arrow-"] svg {
@@ -3698,6 +3698,43 @@ body.search-is-visible {
 
 .s-home__arrow-next {
     right: 0;
+}
+
+
+/* --------------------------------------------------------------------
+ * ## intro scroll
+ * -------------------------------------------------------------------- */
+ .s-intro__scroll {
+    z-index          : 2;
+    transform        : rotate(90deg);
+    transform-origin : right bottom;
+    position         : absolute;
+    right            : 6.2rem;
+    bottom           : var(--vspace-1_5);
+}
+
+.s-intro__scroll a {
+    display     : flex;
+    align-items : center;
+}
+
+.s-intro__scroll span {
+    font-family    : var(--font-1);
+    font-weight    : 400;
+    font-size      : calc(var(--text-size) * 0.6667);
+    line-height    : 1;
+    letter-spacing : .3em;
+    color          : var(--color-black);
+    margin-right   : 1.6rem;
+}
+
+.s-intro__scroll svg {
+    height : var(--vspace-0_625);
+    width  : var(--vspace-0_625);
+}
+
+.s-intro__scroll svg path {
+    fill : var(--color-1);
 }
 
 /* ------------------------------------------------------------------- 
@@ -4595,7 +4632,7 @@ body.search-is-visible {
 
 .s-contact__info-block {
     padding-left: 4rem;
-    margin-bottom: var(--vspace-1);
+    margin-bottom: 0.1rem;
     position: relative;
 }
 
@@ -4630,6 +4667,13 @@ body.search-is-visible {
 
 @media screen and (max-width: 600px) {
     .s-contact__content .display-1 {
+        font-size: var(--text-xl);
+        line-height: var(--vspace-1_5);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .s-contact__content .display-1 span {
         font-size: var(--text-xl);
         line-height: var(--vspace-1_5);
     }
