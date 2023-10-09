@@ -4917,14 +4917,14 @@ body.search1-is-visible {
 }
 
 .s-contact__info-block {
-    padding-left: 4rem;
+    padding-left: 6rem;
     margin-bottom: 0.1rem;
     position: relative;
 }
 
 .s-contact__info-block-icon {
     position: absolute;
-    left: 0;
+    left: 2rem;
     top: .3em;
 }
 
