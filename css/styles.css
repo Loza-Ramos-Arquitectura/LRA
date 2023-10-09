@@ -3959,7 +3959,7 @@ body.search1-is-visible {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     position: absolute;
-    top: 52%;
+    top: 51.5%;
 }
 
 [class*="s-home__arrow-"] svg {
