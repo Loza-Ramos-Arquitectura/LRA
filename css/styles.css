@@ -2370,6 +2370,34 @@ input[type="button"].btn--primary:focus {
     color: var(--color-btn-primary-hover-text);
 }
 
+/* button primary1
+ * ------------------------------------------------- */
+ .btn.btn--primary1, 
+ button.btn--primary1, 
+ input[type="submit"].btn--primary1, 
+ input[type="reset"].btn--primary1, 
+ input[type="button"].btn--primary1 {
+     background: var(--color-1);
+     border-color: var(--color-1);
+     color: var(--color-btn-primary-text);
+     float:right;
+ }
+ 
+ .btn.btn--primary1:hover, 
+ button.btn--primary1:hover, 
+ input[type="submit"].btn--primary1:hover, 
+ input[type="reset"].btn--primary1:hover, 
+ input[type="button"].btn--primary1:hover, 
+ .btn.btn--primary1:focus, 
+ button.btn--primary1:focus, 
+ input[type="submit"].btn--primary1:focus, 
+ input[type="reset"].btn--primary1:focus, 
+ input[type="button"].btn--primary1:focus {
+     background: var(--color-dark-bg);
+     border-color: var(--color-dark-bg);
+     color: var(--color-btn-primary-hover-text);
+ }
+
 /* button modifiers
  * ------------------------------------------------- */
 .btn.h-full-width, 
@@ -2377,48 +2405,47 @@ button.h-full-width {
     width: 100%;
     margin-right: 0;
 }
-
+ 
 .btn--small, 
 button.btn--small {
     --btn-height: calc(var(--vspace-btn) - 1.6rem);
 }
-
+ 
 .btn--medium, 
 button.btn--medium {
-    --btn-height: calc(var(--vspace-btn) + .8rem);
+     --btn-height: calc(var(--vspace-btn) + .8rem);
 }
-
+ 
 .btn--large, 
 button.btn--large {
-    --btn-height: calc(var(--vspace-btn) + 1.6rem);
+     --btn-height: calc(var(--vspace-btn) + 1.6rem);
 }
-
+ 
 .btn--stroke, 
 button.btn--stroke {
-    background: transparent !important;
-    border: 0.2rem solid var(--color-btn-stroke);
-    color: var(--color-btn-stroke-text);
+     background: transparent !important;
+     border: 0.2rem solid var(--color-btn-stroke);
+     color: var(--color-btn-stroke-text);
 }
-
+ 
 .btn--stroke:hover, 
 button.btn--stroke:hover {
-    background: var(--color-btn-stroke-hover) !important;
-    border: 0.2rem solid var(--color-btn-stroke-hover);
-    color: var(--color-btn-stroke-hover-text);
+     background: var(--color-btn-stroke-hover) !important;
+     border: 0.2rem solid var(--color-btn-stroke-hover);
+     color: var(--color-btn-stroke-hover-text);
 }
-
+ 
 .btn--pill, 
 button.btn--pill {
-    padding-left: 3.2rem !important;
-    padding-right: 3.2rem !important;
-    border-radius: 1000px !important;
-    float: right;
+     padding-left: 3.2rem !important;
+     padding-right: 3.2rem !important;
+     border-radius: 1000px !important;
 }
-
+ 
 button::-moz-focus-inner, 
 input::-moz-focus-inner {
-    border: 0;
-    padding: 0;
+     border: 0;
+     padding: 0;
 }
 
 
@@ -3300,6 +3327,11 @@ input::-moz-focus-inner {
 .s-header__nav .current a {
     background-color: var(--color-white);
     color: var(--color-1);
+}
+
+.s-header__nav .highlight a {
+    background-color: var(--color-1);
+    color: var(--color-white);
 }
 
 /* ------------------------------------------------------------------- 
@@ -4306,7 +4338,7 @@ body.search1-is-visible {
     margin-left: 0;
     font-size: var(--text-sm);
     line-height: var(--vspace-0_5);
-    color: var(--color-text-light);
+    color: var(--color-dark-bg);
     padding-left: calc(0.875 * var(--space));
     position: relative;
 }
