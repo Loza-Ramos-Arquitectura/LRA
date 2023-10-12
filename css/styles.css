@@ -4907,7 +4907,7 @@ body.search1-is-visible {
 }
 
 .s-contact a {
-    color: var(--color-white);
+    color: var(--color-text);
 }
 
 .s-contact a:hover, .s-contact a:focus {
