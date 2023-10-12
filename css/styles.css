@@ -4096,7 +4096,7 @@ body.search1-is-visible {
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 1200px) {
     .s-home__slider h2 {
-        font-size: 6rem;
+        font-size: 4rem;
     }
 }
 
@@ -4108,7 +4108,7 @@ body.search1-is-visible {
         padding: 16rem 8rem 10vh;
     }
     .s-home__slider h1 {
-        font-size: 5.6rem;
+        font-size: 3.8rem;
     }
     .s-home__slider p {
         max-width: none;
@@ -4119,13 +4119,13 @@ body.search1-is-visible {
 
 @media screen and (max-width: 900px) {
     .s-home__slider h1 {
-        font-size: 5rem;
+        font-size: 3.2rem;
     }
 }
 
 @media screen and (max-width: 800px) {
     .s-home__slider h1 {
-        font-size: 4.6rem;
+        font-size: 2.8rem;
     }
     [class*="s-home__arrow-"] {
         width: 5.6rem;
@@ -4139,7 +4139,7 @@ body.search1-is-visible {
 
 @media screen and (max-width: 700px) {
     .s-home__slider h1 {
-        font-size: 4.2rem;
+        font-size: 2.6rem;
     }
     .s-home__slider p {
         padding: 0;
@@ -4151,7 +4151,7 @@ body.search1-is-visible {
         padding: 16rem 6rem 10vh;
     }
     .s-home__slider h1 {
-        font-size: 4rem;
+        font-size: 2.2rem;
     }
     [class*="s-home__arrow-"] {
         width: 4.8rem;
@@ -4168,7 +4168,7 @@ body.search1-is-visible {
         padding: 14.4rem 4.8rem 10vh;
     }
     .s-home__slider h1 {
-        font-size: 3.8rem;
+        font-size: 2rem;
     }
     .s-home__line {
         width: 50vw;
@@ -4180,7 +4180,7 @@ body.search1-is-visible {
         padding: 10.4rem 6vw 10vh;
     }
     .s-home__slider h1 {
-        font-size: 3.5rem;
+        font-size: 1.5rem;
     }
     .s-home__slider p {
         font-size: 1.5rem;
