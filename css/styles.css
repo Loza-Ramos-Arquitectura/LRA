@@ -1632,7 +1632,27 @@ a:hover, a:active {
  * --text-xs        = (12.50px)
  * -------------------------------------------------------------------- */
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+h1, h2, h4, h5, h6, .h1, .h2, .h4, .h5, .h6 {
+    font-family: var(--font-2);
+    font-weight: 700;
+    font-style: normal;
+    color: var(--color-text-dark);
+    -webkit-font-variant-ligatures: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    text-rendering: optimizeLegibility;
+}
+
+h3, .h3 {
+    font-family: var(--font-2);
+    font-weight: 500;
+    font-style: normal;
+    color: var(--color-text-dark);
+    -webkit-font-variant-ligatures: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    text-rendering: optimizeLegibility;
+}
+
+h7, .h7 {
     font-family: var(--font-2);
     font-weight: 500;
     font-style: normal;
@@ -3941,7 +3961,7 @@ body.search1-is-visible {
     outline: none;
 }
 
-.s-home__slider h1 {
+.s-home__slider h7 {
     font-family: var(--font-3);
     font-size: 6.4rem;
     line-height: 1.25;
@@ -3952,16 +3972,16 @@ body.search1-is-visible {
     transition: all .3s;
 }
 
-.s-home__slider h1 a, 
-.s-home__slider h1 a:visited, 
-.s-home__slider h1 span {
+.s-home__slider h7 a, 
+.s-home__slider h7 a:visited, 
+.s-home__slider h7 span {
     display: inline-block;
     color: var(--color-1);
     border-bottom: 1px solid transparent;
 }
 
-.s-home__slider h1 a:hover, 
-.s-home__slider h1 a:focus {
+.s-home__slider h7 a:hover, 
+.s-home__slider h7 a:focus {
     border-bottom: 1px solid rgba(255, 255, 255, 0.25);
 }
 
@@ -4371,7 +4391,7 @@ body.search1-is-visible {
 }
 
 .modal-popup__details {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: var(--color-1);
     font-size: var(--text-sm);
     line-height: calc(var(--vspace-1_5) - 2px);
     border: 1px solid rgba(255, 255, 255, 0.15);
@@ -4383,8 +4403,8 @@ body.search1-is-visible {
 }
 
 .modal-popup__details:hover, .modal-popup__details:focus {
-    background-color: var(--color-1);
-    border-color: var(--color-1);
+    background-color: var(--color-dark-bg);
+    border-color: var(--color-dark-bg);
     color: var(--color-white);
 }
 
