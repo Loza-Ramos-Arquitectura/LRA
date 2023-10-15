@@ -4115,8 +4115,8 @@ body.search1-is-visible {
  * home
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 1200px) {
-    .s-home__slider h2 {
-        font-size: 4rem;
+    .s-home__slider h7 {
+        font-size: 2.5rem;
     }
 }
 
