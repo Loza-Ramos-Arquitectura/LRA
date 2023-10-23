@@ -108,9 +108,9 @@
  * ## colors 
  * ------------------------------------------------------------------- */
 :root {
-    /* color-1(#11abb0)
+    /* color-1(#FF3F3F)
      * color-2(#493657)
-     * color-3(#f46036)
+     * color-3(#FF3F3F)
      */
     --color-1: #FF3F3F;
     --color-2: hsla(275, 23%, 28%, 1);
@@ -171,7 +171,7 @@
      */
     --color-text       : var(--color-gray-11);
     --color-text-dark  : var(--color-black);
-    --color-text-light : var(--color-gray-7);
+    --color-text-light : var(--color-black);
     --color-slider: var(--color-white);
 
     /* buttons
@@ -1603,7 +1603,7 @@ a {
 }
 
 a:hover, a:focus, a:active {
-    color: var(--color-2);
+    color: var(--color-1);
 }
 
 a:hover, a:active {
@@ -4232,8 +4232,8 @@ body.search1-is-visible {
  * ------------------------------------------------------------------- */
 .s-services {
     background-color: var(--color-white-bg);
-    padding-top: calc(7 * var(--space));
-    padding-bottom: calc(6 * var(--space));
+    padding-top: calc(15 * var(--space));
+    padding-bottom: calc(2 * var(--space));
     color: var(--color-black);
 }
 
@@ -4904,7 +4904,7 @@ body.search1-is-visible {
     background-color: var(--color-black);
     padding-top: calc(6 * var(--space));
     padding-bottom: var(--vspace-2);
-    color: rgba(255, 255, 255, 0.4);
+    color: var(--color-black);
 }
 
 .s-contact--blog {
@@ -4916,7 +4916,7 @@ body.search1-is-visible {
 }
 
 .s-contact .lead {
-    color: rgba(255, 255, 255, 0.3);
+    color: var(--color-black);
 }
 
 .s-contact h5 {
@@ -4958,7 +4958,7 @@ body.search1-is-visible {
 .s-contact__email-us .btn:hover, .s-contact__email-us .btn:focus {
     background-color: var(--color-white);
     border-color: var(--color-white);
-    color: black;
+    color: var(--color-black);
 }
 
 /* ------------------------------------------------------------------- 
