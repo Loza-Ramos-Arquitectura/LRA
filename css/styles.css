@@ -5861,8 +5861,6 @@ body.search1-is-visible {
     color: var(--color-1);
     cursor: pointer;
     width: 100%;
-    text-align: left;
-    font-size: 18px;
   }
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
