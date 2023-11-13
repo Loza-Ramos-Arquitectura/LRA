@@ -2347,6 +2347,35 @@ input[type="button"] {
     border: 0.2rem solid var(--color-btn);
 }
 
+.btn2,
+button, 
+input[type="submit"], 
+input[type="reset"], 
+input[type="button"] {
+    --btn-height: var(--vspace-btn);
+    display: inline-block;
+    font-family: var(--font-1);
+    font-weight: 700;
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: .4em;
+    height: var(--btn-height);
+    line-height: calc(var(--btn-height) - .4rem);
+    padding: 0 3.2rem;
+    margin: 0 .4rem 1.6rem 0;
+    color: var(--color-btn-text);
+    text-decoration: none;
+    text-align: left;
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--color-btn);
+    border: 0.2rem solid var(--color-btn);
+}
+
 .btn:hover, 
 button:hover, 
 input[type="submit"]:hover, 
@@ -2405,6 +2434,32 @@ input[type="button"].btn--primary:focus {
  }
  
  .btn.btn--primary1:hover, 
+ button.btn--primary1:hover, 
+ input[type="submit"].btn--primary1:hover, 
+ input[type="reset"].btn--primary1:hover, 
+ input[type="button"].btn--primary1:hover, 
+ .btn.btn--primary1:focus, 
+ button.btn--primary1:focus, 
+ input[type="submit"].btn--primary1:focus, 
+ input[type="reset"].btn--primary1:focus, 
+ input[type="button"].btn--primary1:focus {
+     background: var(--color-dark-bg);
+     border-color: var(--color-dark-bg);
+     color: var(--color-btn-primary-hover-text);
+ }
+
+ .btn2.btn--primary1, 
+ button.btn--primary1, 
+ input[type="submit"].btn--primary1, 
+ input[type="reset"].btn--primary1, 
+ input[type="button"].btn--primary1 {
+     background: var(--color-1);
+     border-color: var(--color-1);
+     color: var(--color-btn-primary-text);
+     float:right;
+ }
+ 
+ .btn2.btn--primary1:hover, 
  button.btn--primary1:hover, 
  input[type="submit"].btn--primary1:hover, 
  input[type="reset"].btn--primary1:hover, 
