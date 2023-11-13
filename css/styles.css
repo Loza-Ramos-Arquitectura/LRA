@@ -5340,7 +5340,7 @@ body.search1-is-visible {
 }
 
 .blog-post__date::before {
-    content: "Publicado";
+    content: "Ubicación";
 }
 
 .blog-post__cat {
