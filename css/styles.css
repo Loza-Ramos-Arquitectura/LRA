@@ -166,6 +166,7 @@
     --color-gray-2 : #e0e0e0;
     --color-gray-1 : #eff0f0;
     --color-white  : #f4f4f4;
+    --color-white2 : #ececec;
 
     /* text
      */
@@ -4287,9 +4288,9 @@ body.search1-is-visible {
  *
  * ------------------------------------------------------------------- */
 .s-services {
-    background-color: var(--color-white-bg);
-    padding-top: calc(15 * var(--space));
-    padding-bottom: calc(2 * var(--space));
+    background-color: var(--color-white2);
+    padding-top: calc(9 * var(--space));
+    padding-bottom: calc(9 * var(--space));
     color: var(--color-black);
 }
 
@@ -4346,8 +4347,8 @@ body.search1-is-visible {
  * ------------------------------------------------------------------- */
 .s-portfolio {
     background-color: var(--color-white-bg);
-    padding-top: calc(7 * var(--space));
-    padding-bottom: calc(2 * var(--space));
+    padding-top: calc(9 * var(--space));
+    padding-bottom: calc(9 * var(--space));
 }
 
 /* ------------------------------------------------------------------- 
@@ -4699,9 +4700,9 @@ body.search1-is-visible {
  *
  * ------------------------------------------------------------------- */
 .s-about {
-    background-color: var(--color-white);
-    padding-top: calc(7 * var(--space));
-    padding-bottom: var(--vspace-2);
+    background-color: var(--color-white2);
+    padding-top: calc(9 * var(--space));
+    padding-bottom: calc(5 * var(--space));
 }
 
 .s-about h4 {
@@ -4791,8 +4792,8 @@ body.search1-is-visible {
  * ------------------------------------------------------------------- */
 .s-testimonials {
     background-color: var(--color-white);
-    padding-top: 0;
-    padding-bottom: calc(6 * var(--space));
+    padding-top: calc(5 * var(--space));
+    padding-bottom: calc(7 * var(--space));
 }
 
 .s-testimonials .section-head {
@@ -5934,5 +5935,5 @@ body.search1-is-visible {
     padding: 0 18px;
     display: none;
     overflow: hidden;
-    background-color: var(--color-white);
+    background-color: var(--color-white2);
   }
